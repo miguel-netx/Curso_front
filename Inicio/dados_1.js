@@ -11,4 +11,7 @@ console.log(imposto);
 console.log(precoFinal);
 
 nome = "caneta bic"
-console.log(nome)
+console.log(nome);
+
+blabla = 123
+console.log(blabla);
