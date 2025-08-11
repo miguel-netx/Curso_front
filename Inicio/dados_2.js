@@ -9,3 +9,5 @@ console.log(preComDesconto)
 let nome = "caderno" 
 let categoria = "papelaria"
  console.log (nome + " " + categoria)
+
+
