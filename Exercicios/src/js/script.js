@@ -7,10 +7,6 @@ btnPlus.addEventListener('click', () => {
     value.innerHTML = parseInt(value.innerHTML) + 1;
 })
 
-btnMinus.addEventListener('click', () => {
-    value.innerHTML = parseInt(value.innerHTML) - 1;
-})
-
 btnReset.addEventListener('click', () => {
     value.innerHTML = 0;
 })
