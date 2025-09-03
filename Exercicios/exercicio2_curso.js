@@ -16,7 +16,7 @@ function triangulo (v1, v2, v3) {
     else if (v1 != v2 && v2 != v3){
         console.log("É um trinagulo Escaléno");
     }else {
-        console.log("Não é um trinagulo")
+        console.log("Não é um triangulo")
     }
 }
 triangulo(2,3,6)
@@ -25,3 +25,10 @@ function baseExpo (a, b){
     console.log(a ** b)
 }
 baseExpo(2,3)
+
+
+function divisao (a, b){
+    console.log("Resultado", Math.floor (a / b));
+    console.log(a % b);
+}
+(divisao(10, 3))
