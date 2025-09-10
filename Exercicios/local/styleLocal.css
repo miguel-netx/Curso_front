@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ebebeb;
+    padding: 20px;
+    }
+h1 { 
+    color: #333; 
+    }
+button {
+    padding: 7px;
+    margin: 5px;
+    cursor: pointer;
+    }
+input {
+    padding: 7px;
+    margin: 5px;
+    }
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    background: #ffffff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+.time {
+    font-size: 14px;
+    color: gray;
+    }
+button.remove{
+    background: red;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
